@@ -1,6 +1,6 @@
 
 import React from 'react';
-import TripFinder from './components/TripFinder';
+import TripFinder from './TripFinder';
 
 function App() {
   return (
