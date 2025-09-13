@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import L from "leaflet";
-import { places } from '../data/places';
+import { places } from './places';
 import type { Place } from '../types';
 
 interface RoutingMapProps {
