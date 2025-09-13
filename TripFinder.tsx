@@ -166,6 +166,9 @@ export default function TripFinder() {
               </div>
             )}
 
+            
+      <a href="https://model1-tuos.vercel.app/"  className="w-full text-sm text-gray-500 bg-transparent my-5 border-none cursor-pointer p-2 hover:text-red-600">Back To Home</a>
+
             {/* Search History */}
             {searchHistory.length > 0 && (
               <div className="mt-6 pt-6 border-t border-gray-200 flex flex-col gap-3">
@@ -202,6 +205,7 @@ export default function TripFinder() {
           </div>
         </div>
       </div>
+
 
       {/* Map Area */}
       <div className="flex-1 relative">
